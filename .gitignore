@@ -20,7 +20,7 @@
 # is commented out by default.
 .vscode/
 .fvm/
-.web/
+web/
 
 # Flutter/Dart/Pub related
 **/doc/api/
