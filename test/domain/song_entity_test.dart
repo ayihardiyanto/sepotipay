@@ -8,6 +8,8 @@ void main() {
     final Song song = Song(
       title: dummyString,
       singer: dummyString,
+      album: dummyString,
+      image: dummyString,
       isPlaying: true,
     );
     test('should return overridde existing attribute', () {
@@ -17,6 +19,8 @@ void main() {
                 isPlaying: false,
                 singer: otherString,
                 title: otherString,
+                album: otherString,
+                image: otherString,
               )
               .props,
           [otherString, otherString, false]);
